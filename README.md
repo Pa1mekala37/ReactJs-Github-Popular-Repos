@@ -1,5 +1,9 @@
-In this project, let's build a **Github Popular Repos** by applying the concepts we have learned till now.
+Developed a web application where user can see popular github repos and can be filtered through a selected programming language
 
+- Implemented repos list using React component, props, lists & keys and achieved responsiveness using bootstrap flex classes and CSS box model through mobile-first approach.
+- Fetched repos particular to a language from server asynchronously using fetch GET HTTP API call by sending selected language in query parameter.
+
+Technologies used: React JS, REST API Calls, CSS, Bootstrap
 ### Refer to the images below:
 
  <br/>
@@ -201,9 +205,3 @@ Use these files to complete the implementation:
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
